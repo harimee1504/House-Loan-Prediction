@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOAN PREDICTION</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../static/css/details.css">
+</head>
+<body>
+    <header><h2></h2><h1>LOAN PREDICTION</h1></header>
+    <main>
+    <div class="leftside">
+        <img src="../static/images/house.jpg" alt="House">   
+    </div>
+    <div class="rightside">
+    <form action="/predict" method='post'>
+        <h2 style="text-align: center;margin-top: 20px;margin-left: 10vw;">Enter Your Details</h2>
+        <h4 id="heading">Your Name</h4>
+        <input type="text" name="name" placeholder="Enter Your Name" required>
+        <h4 id="heading">Gender</h4>
+        <input type="radio" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <h4 id="heading">Marital Status</h4>
+        <input type="radio" name="married" value="Yes"required>
+        <label for="yes">Yes</label><br>
+        <input type="radio" name="married" value="No">
+        <label for="no">No</label><br>
+        <h4 id="heading">Dependents</h4>
+        <input type="radio" name="dependents" value="0"required>
+        <label for="yes">0</label><br>
+        <input type="radio" name="dependents" value="1"required>
+        <label for="yes">1</label><br>
+        <input type="radio" name="dependents" value="2">
+        <label for="no">2</label><br>
+        <input type="radio" name="dependents" value="3+">
+        <label for="no">3 and Above</label><br>
+        <h4 id="heading">Education Level</h4>
+        <input type="radio" name="education" value="Graduate" required>
+        <label for="yes">Graduate</label><br>
+        <input type="radio" name="education" value="Not Graduate">
+        <label for="no">Not Graduate</label><br>
+        <h4 id="heading">Self Employed</h4>
+        <input type="radio" name="selfemployed" value="Yes" required>
+        <label for="yes">Yes</label><br>
+        <input type="radio" name="selfemployed" value="No">
+        <label for="no">No</label><br>
+        <h4 id="heading">Applicant Income</h4>
+        <input type="text" name="applicantincome" placeholder="Enter Your Income" required>
+        <h4 id="heading">Co-applicant Income</h4>
+        <input type="text" name="coapplicantincome" placeholder="Enter Co-applicant Income" required>
+        <h4 id="heading">Loan Amount</h4>
+        <input type="text" name="loanamount" placeholder="Enter Loan Amount" required>
+        <h4 id="heading">Loan Amount Term</h4>
+        <input type="text" name="loanamountterm" placeholder="Enter Loan Amount Term" required>
+        <h4 id="heading">Credit History</h4>
+        <input type="radio" name="credit" value="1" required>
+        <label for="yes">Yes, My credit history meets guidelines</label><br>
+        <input type="radio" name="credit" value="0">
+        <label for="no">No, My credit history does not meets guidelines</label><br>
+        <h4 id="heading">Property Area</h4>
+        <input type="radio" name="area" value="Semiurban" required>
+        <label for="yes">Semi - Urban</label><br>
+        <input type="radio" name="area" value="Urban" required>
+        <label for="no">Urban</label><br>
+        <input type="radio" name="area" value="Rural" required>
+        <label for="no">Rural</label><br>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    </div>
+    </main>
+    <script src="../static/js/three.min.js"></script>
+    <script src="../static/js/GLTFLoader.js"></script>
+    <script src="../static/js/app.js"></script>
+</body>
+</html>

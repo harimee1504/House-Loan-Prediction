@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background: #282828;
+  color: antiquewhite;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 12vh;
+  border-bottom: 1px solid antiquewhite;
+}
+
+header h2 {
+  width: 50%;
+}
+
+form label {
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+}
+
+form h4 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+form input[type="text"] {
+  height: 30px;
+  width: 350px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-left: 5vw;
+}
+
+form input[type="radio"] {
+  margin-left: 5vw;
+}
+
+form input[type="submit"] {
+  background: #126cce;
+  color: antiquewhite;
+  border: 2px solid #126cce;
+  height: 35px;
+  padding: 5px 10px;
+  width: 20%;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  margin-left: 3vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+form input[type="submit"]:hover {
+  border: 2px solid antiquewhite;
+}
+
+#heading {
+  margin-left: 3vw;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+}
+
+main .leftside {
+  width: 50%;
+}
+
+main .leftside img {
+  height: 110%;
+  width: 50%;
+  position: fixed;
+  top: 0;
+}
+/*# sourceMappingURL=details.css.map */

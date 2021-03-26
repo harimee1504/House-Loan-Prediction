@@ -1,0 +1,38 @@
+Loan_ID,Gender,Married,Dependents,Education,Self_Employed,ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Property_Area
+LP994649,Male,No,3+,Not Graduate,Yes,35000,0,50000,30,0,Rural
+LP002925,Female,No,0,Graduate,No,4750,0,94,360,1,Semiurban
+LP002926,Male,Yes,2,Graduate,Yes,2726,0,106,360,0,Semiurban
+LP002928,Male,Yes,0,Graduate,No,3000,3416,56,180,1,Semiurban
+LP002931,Male,Yes,2,Graduate,Yes,6000,0,205,240,1,Semiurban
+LP002933,,No,3+,Graduate,Yes,9357,0,292,360,1,Semiurban
+LP002936,Male,Yes,0,Graduate,No,3859,3300,142,180,1,Rural
+LP002938,Male,Yes,0,Graduate,Yes,16120,0,260,360,1,Urban
+LP002940,Male,No,0,Not Graduate,No,3833,0,110,360,1,Rural
+LP002941,Male,Yes,2,Not Graduate,Yes,6383,1000,187,360,1,Rural
+LP002943,Male,No,,Graduate,No,2987,0,88,360,0,Semiurban
+LP002945,Male,Yes,0,Graduate,Yes,9963,0,180,360,1,Rural
+LP002948,Male,Yes,2,Graduate,No,5780,0,192,360,1,Urban
+LP002949,Female,No,3+,Graduate,,416,41667,350,180,,Urban
+LP002950,Male,Yes,0,Not Graduate,,2894,2792,155,360,1,Rural
+LP002953,Male,Yes,3+,Graduate,No,5703,0,128,360,1,Urban
+LP002958,Male,No,0,Graduate,No,3676,4301,172,360,1,Rural
+LP002959,Female,Yes,1,Graduate,No,12000,0,496,360,1,Semiurban
+LP002960,Male,Yes,0,Not Graduate,No,2400,3800,,180,1,Urban
+LP002961,Male,Yes,1,Graduate,No,3400,2500,173,360,1,Semiurban
+LP002964,Male,Yes,2,Not Graduate,No,3987,1411,157,360,1,Rural
+LP002974,Male,Yes,0,Graduate,No,3232,1950,108,360,1,Rural
+LP002978,Female,No,0,Graduate,No,2900,0,71,360,1,Rural
+LP002979,Male,Yes,3+,Graduate,No,4106,0,40,180,1,Rural
+LP002983,Male,Yes,1,Graduate,No,8072,240,253,360,1,Urban
+LP002984,Male,Yes,2,Graduate,No,7583,0,187,360,1,Urban
+LP002990,Female,No,0,Graduate,Yes,4583,0,133,360,0,Semiurban
+LP396841,Female,Yes,1,Graduate,Yes,35000,0,5000,30,1,Semiurban
+LP626286,Female,Yes,3+,Graduate,Yes,35000,0,50000,30,1,Rural
+LP692435,Female,Yes,3+,Graduate,Yes,35000,0,50000,30,1,Rural
+LP975333,Female,Yes,3+,Graduate,Yes,35000,0,50000,30,1,Rural
+LP651548,Male,No,1,Graduate,Yes,350000,350000,500,30,1,Urban
+LP333106,Male,Yes,3+,Graduate,Yes,35000,0,50000,30,1,Rural
+LP825104,Male,No,0,Graduate,No,3676,4301,172,360,1,Semiurban
+LP592475,Male,Yes,0,Graduate,Yes,2356,0,5245,6,1,Urban
+LP611967,Male,Yes,0,Graduate,Yes,6554,7896,258,4,1,Urban
+LP330574,Male,Yes,0,Graduate,Yes,5869,7895,4568,3,1,Urban

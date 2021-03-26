@@ -1,0 +1,44 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: Poppins, sans-serif;
+  background: #282828;
+  color: antiquewhite;
+  overflow: hidden;
+}
+.scene,canvas{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12vh;
+  border-bottom: 1px solid antiquewhite;
+}
+.pred{
+  position: absolute;
+  top:50%;
+  right: 25%;
+  a{
+    background: #126cce;
+    color: antiquewhite;
+    border: 2px solid #126cce;
+    height: 40px;
+    padding: 10px 20px;
+    width: 20%;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    &:hover{
+      border: 2px solid antiquewhite;
+    }
+  }
+}

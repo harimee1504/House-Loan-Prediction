@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins, sans-serif;
+  background: #282828;
+  color: antiquewhite;
+  overflow: hidden;
+}
+.scene,
+canvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12vh;
+  border-bottom: 1px solid antiquewhite;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.pred {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    margin-left: 10vw;
+    margin-bottom: 25px;
+  }
+  a {
+    z-index: 1;
+    background: #126cce;
+    color: antiquewhite;
+    border: 2px solid #126cce;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    text-decoration: none;
+    &:hover {
+      border: 2px solid antiquewhite;
+    }
+  }
+}
